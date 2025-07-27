@@ -18,3 +18,11 @@ print(10 % 3)
 
 # Exponenciação
 print(2 ** 3)
+
+'''
+ Ordem de precedência dos operadores aritméticos:
+ 1. parêntesis 
+ 2. expoentes
+ 3. multiplicação e divisão
+ 4. somas e subtrações
+'''
