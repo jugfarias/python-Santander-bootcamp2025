@@ -1,0 +1,29 @@
+# Exemplo com 'and' (E lógico): retorna True se ambas as condições forem verdadeiras
+a = True
+b = False
+resultado_and = a and b  # False, pois b é False
+print("a and b:", resultado_and)
+
+# Exemplo com 'or' (OU lógico): retorna True se pelo menos uma condição for verdadeira
+resultado_or = a or b  # True, pois a é True
+print("a or b:", resultado_or)
+
+# Exemplo com 'not' (NÃO lógico): inverte o valor lógico
+resultado_not = not a  # False, pois a é True
+print("not a:", resultado_not)
+
+# Usando operadores lógicos em comparações
+x = 10
+y = 5
+
+# Verifica se x é maior que 5 E y é menor que 10
+if x > 5 and y < 10:
+    print("x > 5 e y < 10 são ambos verdadeiros")
+
+# Verifica se x é igual a 10 OU y é igual a 10
+if x == 10 or y == 10:
+    print("x == 10 ou y == 10 é verdadeiro")
+
+# Negando uma condição
+if not (x < y):
+    print("x não é menor que y")
