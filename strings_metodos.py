@@ -24,8 +24,8 @@ print(texto_limpo.title())
 # center(): centraliza o texto envolto de um caractere selecionado - center({nº de caracteres total do texto}, {caractere - opcional})
 print(texto_limpo.center(24, '#'))  # '##Python bootcamp 2025##'
 
-# join(): junta os caracteres da string por um caractere selecionado - join({caractere}.join({string/lista}))
-print('.'.join('Python'))
+# join(): junta os caracteres da string por um caractere selecionado - join({caractere}.join({string/lista/tupla}))
+print('.'.join('Python'))   # 'P.y.t.h.o.n'
 
 # replace(): substitui partes da string
 novo_texto = texto_limpo.replace('2025', '2024')
